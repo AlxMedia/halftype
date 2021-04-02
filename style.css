@@ -1,7 +1,7 @@
 /*
 Theme Name: Halftype
 Theme URI: http://alx.media/themes/halftype/
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.6
@@ -217,7 +217,7 @@ input, textarea, button, select, label { font-family: inherit; }
 
 /*  base : entry
 /* ------------------------------------ */
-.entry a { color: #febe02; }
+.entry a { color: #febe02; text-decoration: underline; }
 .entry a:hover { color: #fff; }
 .entry { font-size: 19px; line-height: 1.6em; }
 .entry p,
@@ -631,6 +631,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu { visibility: hidden; transition: all 0.3s ease; }
 .nav-menu.mobile.toggled > div > ul.menu,
 .nav-menu.mobile.toggled > div > ul.menu ul.sub-menu.active { visibility: visible; }
+.nav-menu.mobile button:focus,
+.menu-toggle:focus { background: rgba(255,255,255,0.06); }
 
 /* menu styling */
 .nav-menu a { color: #fff; font-weight: 600; }
