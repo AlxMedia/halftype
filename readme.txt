@@ -81,6 +81,11 @@ Content images
 
 == Changelog ==
 
+= 1.0.5 - 2021-04-13 =
+* Fixed: more visible focus style of search button
+* Fixed: tab focus order for header
+* Added non-minified jq-sticky-anything.js
+
 = 1.0.4 - 2021-04-08 =
 * Fixed: avatar image and avatar author link
 
