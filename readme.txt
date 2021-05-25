@@ -81,6 +81,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.6 - 2021-05-25 =
+* Fixed compatibility issue with custom nav and various security plugins
+
 = 1.0.5 - 2021-04-13 =
 * Fixed: more visible focus style of search button
 * Fixed: tab focus order for header
